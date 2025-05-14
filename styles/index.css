@@ -19,3 +19,29 @@ a {
     text-decoration: none;
     color: inherit;
 }
+.hero-section{
+    background-image: url(../images/download\ \(7\).jpeg);
+    background-size: contain;
+    width: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20%;
+}
+.hero-content{
+    width: 80%;
+    margin: auto;
+    
+}
+.bio{
+    width: 80%;
+    margin: auto;
+   
+}
+
+
+
