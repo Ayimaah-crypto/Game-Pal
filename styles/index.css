@@ -77,14 +77,30 @@ a {
     width: 10rem;
 }
 
-.section-2 img{
-    /* background-color: #EEDCC9;  */
-    position: relative;
+
+.section-2 {
+    background-color: #EEDCC9;
+    /* position: relative;
     z-index: -1;
     top: 10%;
     left: 50%;
     padding-top: 60%;
-    transform: translateX(-50%);
+    transform: translateX(-50%); */
+    padding: 20px 0;
+    display: flex;
+    gap: 60px;
+    justify-content: space-around;
+}
+.section-vid{
+    margin-top: 10%;
+    
+}
+.section2-text{
+    text-align: center;
+    color: #452112;
+    background-color: #BEF4FF;
+    padding: 10px;
+    border-radius: 15%;
 }
 .section-3{
    display: flex;
@@ -125,6 +141,52 @@ a {
 
 .text-image-1{
     margin-top: 50%;
+}
+.section-5{
+    background-image: url(../images/Mad\ Max\ slot\ characters.jpg);
+    background-position: center;
+    background-size: contain;
+    height: 100vh;display: flex;
+    justify-content: space-around;
+}
+
+.section5-text{
+    color: #452112;
+    height: 40vh;
+    background-color: #BEF4FF;
+    margin-top: 20%;
+    border-radius: 10%;
+    justify-content: right;
+    
+    
+}
+.images-characters{
+    width: 70%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.images-characters img{
+    height: 300px;
+    width: 300px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+    /* grid-template-rows:3px ; */
+}
+.thorne{
+    border-style: solid;
+    border-radius: 15px;
+    padding-top: 3px;
+    border-color: #452112;
+}
+.thorne h4{
+   text-align: center;
+
 }
 
    
