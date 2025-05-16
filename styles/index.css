@@ -16,9 +16,10 @@ nav{
     flex-direction: row;
     display: flex;
     width: 50%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 600;
     text-align: center;
+    font-size: large;
 }
 
 a {
@@ -159,15 +160,21 @@ a {
     background-size: contain;
     height: 100vh;display: flex;
     justify-content: space-around;
+    display: flex;
 }
 
 .section5-text{
     color: #452112;
-    height: 40vh;
+    height: 69vh;
     background-color: #BEF4FF;
-    margin-top: 20%;
+    margin-top: 70px;
     border-radius: 10%;
-    justify-content: right;
+    margin-left: 8rem;
+    padding-right: 60px;
+    padding-left: 60px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
     
     
 }
@@ -212,14 +219,14 @@ padding-bottom: 10px;
     font-size: 18px;
 }
 .section-6{
-    background-image: url(../images/download\ \(13\).jpeg);
+    background-image: url(../images/Animated\ Carton\ village\ background\ _\ Premium\ AI-generated\ image.jpeg);
     height: 100vh;
     background-size: cover;
     color: white;
     margin-top: 20px;
     justify-content: center;
     display: flex;
-    align-items: center;
+    
 }
 .section-6 form{
     background-color: #043A69;
@@ -228,7 +235,8 @@ padding-bottom: 10px;
     padding-top: 50px;
     padding-left: 30px;
     font-size: x-large;
-    border-radius: 20px;   
+    border-radius: 20px; 
+    margin-top: 10px;  
 }
 .form-group{
     margin-bottom: 50px;
@@ -242,22 +250,67 @@ padding-bottom: 10px;
     padding: 10px;
     border-radius: 10px;
 }
-.footer{
-    border: 2px solid #EEDCC9;
-    height: 50vh;
+.textbox{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.textbox textarea{
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    
+} 
+.submit{
+    width: 50%;
+    background-color: #043A69;
+    padding: 10px;
+    
+}
+.footer-page{
     background-color: #EEDCC9;
+    height: 50vh;
 }
 
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    color: #452112;
+    /* justify-content: space-around; */
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 20vh;
+    
+    
+}
+.footer-content h1{
+    margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .socials{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
-   
-
-
-
-
-
-
+.footer-content2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #452112;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 20vh;
+}
+.footer-content2 h1{
+    margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}    
+.footer-links{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: x-large;
+}
 
